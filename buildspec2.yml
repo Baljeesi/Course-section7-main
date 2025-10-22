@@ -22,7 +22,7 @@ phases:
       - npm install
       - npm run build
       - docker build -t ci-cd-deployment .
-      - docker tag ci-cd-deployment sagarkakkalasworld/ci-cd-deployment
+      - docker tag ci-cd-deployment baljeesi/ci-cd-deployment
   post_build:
     commands:
-      - docker push sagarkakkalasworld/ci-cd-deployment
+      - docker push baljeesi/ci-cd-deployment
