@@ -1,4 +1,4 @@
-##use this buildspec file if you have saved your dockerhub username and dockerhub password in environment variables
+###use this buildspec file if you have saved your dockerhub username and dockerhub password in environment variables
 version: 0.2 
 
 phases:
